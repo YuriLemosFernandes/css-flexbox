@@ -1,0 +1,44 @@
+.child-box{
+    border-color: #000 solid 1px;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(241, 239, 255);
+    
+}
+
+.parent-box{
+    display: flex;
+    background-color: rgb(151, 151, 255);
+    padding: 45px 20px 20px 20px;
+}
+
+.parent-box > p{
+    position: absolute;
+    margin-top: -35px;
+    background-color: rgb(119, 97, 218);
+    left: 20px;
+    padding: 6px;
+}
+
+#justify-content .parent-box{
+    justify-content: center;
+}
+
+#space-between .parent-box{
+    justify-content: space-between;
+}
+
+#space-around .parent-box{
+    justify-content: space-around;
+}
+
+#space-evenly .parent-box{
+    justify-content: space-evenly;
+}
+
+
+#flex-end .parent-box{
+    justify-content: flex-end;
+}
